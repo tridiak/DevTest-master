@@ -31,8 +31,8 @@ body {
 }
 
 .wavyMask {
-	mask-image: url("assets/banner-wave.svg");
-	mask-size: auto;
+	mask: url("assets/banner-wave.svg");
+	
 }
 
 
@@ -142,7 +142,7 @@ main img {
 	
 	.infoBorder > img {
 		grid-column: 1;
-		height: 100%;
+		height: auto;
 		width: 100%;
 	}
 	
